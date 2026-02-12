@@ -1,4 +1,4 @@
-# ₿ Bitcoin Vanity Address Generator
+# Bitcoin Vanity Address Generator
 
 [![Rust](https://img.shields.io/badge/Rust-2024%20Edition-orange?logo=rust)](https://www.rust-lang.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -21,7 +21,6 @@ Generation works by **brute force**: the program generates random key pairs in a
 ## Features
 
 - Bitcoin address generation (P2PKH, Bech32)
-- 🔍 Search by **prefix**, **suffix**, or **regular expression**
 - **Multithreading** to leverage all CPU cores
 - **Real-time statistics**: generation speed, estimated time, attempts
 - Export results (private key + address) to a file
